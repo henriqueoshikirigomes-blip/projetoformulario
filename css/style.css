@@ -95,6 +95,6 @@ textarea {
 }
 
 .caixOpcional li {
-    list-style: mone;
+    list-style: none;
     margin-bottom: 5px;
 }
