@@ -9,11 +9,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color:blue;
+    color:black;
 }
 
 p, label {
-    color:blue;
+    color:black;
 }
 
 input {
@@ -33,16 +33,16 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: orange;
+    background-color: black;
 }
 
 .cabecalho h3 {
-    color:blue;
+    color:black;
     margin-top: 0;
 }
 
 .form-container {
-    background-color:blue;
+    background-color:orange;
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -55,8 +55,8 @@ textarea {
 }
 
 .form-header p{
-    color: orange;
-    border-bottom: 2px solid orange;
+    color: black;
+    border-bottom: 2px solid black;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -78,7 +78,7 @@ textarea {
 }
 
 .campo-obrigatorio {
-    color:orange;
+    color:black;
 }
 
 .caixainputs {
@@ -100,8 +100,8 @@ textarea {
 }
 
 .btn-submit {
-    background-color: orange;
-    color:blue;
+    background-color: black;
+    color:black;
     border: 2px solid transparent;
     width: 150px;
     height: 50px;
@@ -111,7 +111,13 @@ textarea {
 }
 
 .btn-submit:hover {
-    background-color:blue;
+    background-color:black;
     color:orange;
     border-color: orange;
+}
+
+hr {
+    margin-top: 20px;
+    height: 3px;
+    background: linear-gradient(to right, transparent,black, transparent);
 }
