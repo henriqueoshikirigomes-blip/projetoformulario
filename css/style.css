@@ -5,20 +5,20 @@
 }
 
 body {
-    background-color: orange;
+    background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color:black;
+    color:orange;
 }
 
 p, label {
-    color:black;
+    color:orange;
 }
 
 input {
     border: none;
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid black;
     padding: 10px 0;
 }
 
@@ -33,16 +33,16 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: black;
+    background-color: orange;
 }
 
 .cabecalho h3 {
-    color:black;
+    color:orange;
     margin-top: 0;
 }
 
 .form-container {
-    background-color:orange;
+    background-color:black;
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -55,8 +55,8 @@ textarea {
 }
 
 .form-header p{
-    color: black;
-    border-bottom: 2px solid black;
+    color: orange;
+    border-bottom: 2px solid orange;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -78,7 +78,7 @@ textarea {
 }
 
 .campo-obrigatorio {
-    color:black;
+    color:orange;
 }
 
 .caixainputs {
@@ -100,8 +100,8 @@ textarea {
 }
 
 .btn-submit {
-    background-color: black;
-    color:black;
+    background-color: orange;
+    color:orange;
     border: 2px solid transparent;
     width: 150px;
     height: 50px;
@@ -111,15 +111,15 @@ textarea {
 }
 
 .btn-submit:hover {
-    background-color:black;
-    color:orange;
-    border-color: orange;
+    background-color:orange;
+    color:black;
+    border-color: black;
 }
 
 hr {
     margin-top: 20px;
     height: 3px;
-    background: linear-gradient(to right, transparent,black, transparent);
+    background: linear-gradient(to right, transparent,orange, transparent);
     margin: 20px 0;
     border: none;
 }
