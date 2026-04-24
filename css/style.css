@@ -120,4 +120,6 @@ hr {
     margin-top: 20px;
     height: 3px;
     background: linear-gradient(to right, transparent,black, transparent);
+    margin: 20px 0;
+    border: none;
 }
