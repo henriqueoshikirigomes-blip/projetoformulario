@@ -89,12 +89,12 @@ textarea {
     display: block;
 }
 
-.caixOpcional {
+.caixaOpcional {
     display: inline-block;
     margin: 0 30px 0 30px;
 }
 
-.caixOpcional li {
+.caixaOpcional li {
     list-style: none;
     margin-bottom: 5px;
 }
