@@ -44,7 +44,7 @@ function adicionarNaTela(carro) {
 }
 
 window.onload = function () {
-    let carro = JSON.parse(localStorage.getItem('carro')) || [];
+    let carros = JSON.parse(localStorage.getItem('carros')) || [];
 
     carros.array.forEach(carro => {
         adicionarNaTela(carro);
