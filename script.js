@@ -58,8 +58,8 @@ window.onload = function () {
 function excluirCarro(id) {
     let carros = JSON.parse(localStorage.getItem('carros')) || [];
 
-    carros = carros.filter(carro => carro.id Number() !==Number id);
-    
+    carros = carros.filter(carro => Number(carro.id) !== Number(id));
+
     localStorage.setItem('carros', JSON.stringify(carros));
 
     document.getElementById('listaCarros').innerHTML = "";
